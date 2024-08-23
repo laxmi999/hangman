@@ -35,6 +35,10 @@ export function Keyboard() {
         gridTemplateColumns: 'repeat(auto-fit, minmax(75px, 1fr))',
         gap: '0.5rem',
       }}
-    ></div>
+    >
+      {KEYS.map((key) => {
+        return <button key={key}>{key}</button>;
+      })}
+    </div>
   );
 }

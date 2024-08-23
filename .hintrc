@@ -12,6 +12,7 @@
     "not samsung <= 25"
   ],
   "hints": {
-    "no-inline-styles": "off"
+    "no-inline-styles": "off",
+    "button-type": "off"
   }
 }
